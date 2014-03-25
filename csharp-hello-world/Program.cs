@@ -9,7 +9,7 @@ namespace csharp_hello_world
     class Program
     {
         static void printHello(){
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello, James!");
         }
         static void Main(string[] args)
         {
