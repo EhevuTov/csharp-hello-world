@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using csharp_lib_hello_world;
+
 namespace csharp_hello_world
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Phrase hello = new Phrase();
+            hello.sayPhrase();
         }
     }
 }
