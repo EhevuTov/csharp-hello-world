@@ -13,7 +13,7 @@ namespace csharp_hello_world
         static void Main(string[] args)
         {
             Phrase hello = new Phrase();
-            hello.sayPhrase();
+            Console.WriteLine(hello.get());
         }
     }
 }
