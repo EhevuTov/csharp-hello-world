@@ -12,7 +12,7 @@ namespace csharp_hello_world
         {
             // we instance and use our phrase library contained in our local NuGet package source
             Phrase hello = new Phrase();
-            Console.WriteLine(hello.get());
+            hello.say();
         }
     }
 }
